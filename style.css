@@ -71,7 +71,7 @@ form input::-webkit-color-swatch{
     width: max-content;
     border-top: 30px solid #e6b905;
     border-radius: 10px;
-    box-shadow: 0 20px 50px #004;
+    box-shadow: 0 20px 50px black;
     padding: 10px;
     position: absolute;
 }
@@ -85,4 +85,8 @@ form input::-webkit-color-swatch{
     font-size: large;
     padding-right: 10px;
     cursor: pointer;
+}
+
+.close{
+    padding: 4px;
 }
